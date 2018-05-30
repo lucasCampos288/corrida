@@ -1,0 +1,378 @@
+p, ul, li, a, h1, h2, h3
+{
+    padding:0;
+    margin:0px;
+}
+body
+{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color:#ECECEC;
+}
+ul
+{
+    list-style:none;
+}
+img
+{
+    max-width:100%;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+/*Menu*/
+#menu-bg
+{
+    background-color:#0F0F11;
+    position:relative;
+}
+.menu
+{
+    max-width:1000px;
+    margin:auto;
+
+}
+.nav-menu
+{
+
+    padding:30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+.nav-menu ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-menu a
+{
+    padding:10px;
+    font-size:1.25em;
+    font-style: italic;
+}
+.nav-menu a:hover
+{
+    color:#3c4241;
+    text-decoration:line-through;
+}
+
+/*Introdução*/
+.introducao
+{   
+    width:100%;
+    height: 700px;
+    background-image:url("../img/foto1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.intro-info
+{
+    width:1000px;
+    margin:auto;
+}
+.introducao h1
+{
+    font-size:3em;
+    color:black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:50px;
+}
+
+/*Corrida*/
+.corrida
+{
+    width:100%;
+    height: 700px;
+    background-image:url("../img/foto2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.corrida-info
+{
+    max-width:1000px;
+    margin:auto;
+}
+.corrida-info h1
+{
+    font-size:3em;
+    color:#ECECEC;
+    text-transform: uppercase;
+    padding-top:70px;
+    padding-bottom: 20px;
+}
+.corrida-info p
+{
+    max-width:400px;
+    font-size:1.25em;
+    font-style:italic;
+    color:#ECECEC;
+}
+/*Beneficios*/
+.beneficios
+{
+    width:100%;
+    height: 600px;
+    background-image:url("../img/foto3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.beneficios-info
+{
+    max-width: 1000px;
+    margin:auto;
+    padding-top:15%;
+}
+.beneficio-titulo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.beneficio-texto
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+}
+.beneficio-titulo h1
+{
+    font-size:3em;
+    color:#ECECEC;
+    text-transform: uppercase;
+    padding-top:70px;
+    padding-bottom: 15px;
+}
+.beneficios-info p
+{
+    max-width:550px;
+    font-size:1.25em;
+    font-style:italic;
+    color:#ECECEC;
+    text-align:right;
+}
+
+/*Como começar*/
+.como-comecar
+{
+    width:100%;
+    height: 755px;
+    background-image:url("../img/foto5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.comecar-info
+{
+    max-width:1000px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.comecar-titulo
+{
+    max-width:800px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.comecar-titulo h1
+{
+    font-size:3em;
+    color:#ECECEC;
+    text-transform: uppercase;
+    padding-top:30px;
+    padding-bottom: 15px
+}
+.comecar-titulo p
+{
+    max-width:800px;
+    font-size:1.25em;
+    font-style:italic;
+    color:#ECECEC;
+    text-align:center;
+}
+.comecar-equipamentos
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:70px;
+}
+.comecar-equipamentos h2
+{
+    align-items: center;
+    font-size:1.5em;
+    color:#ECECEC;
+    text-transform: uppercase;
+    padding-bottom: 40px
+}
+.comecar-equipamentos-dentro
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.equipamentos-item
+{
+    flex: 1 1 250px;
+}
+.equipamentos-item h3
+{
+    text-align: center;
+    font-size:1.25em;
+    color:#ECECEC;
+    text-transform: uppercase;
+    padding-bottom: 15px
+}
+.equipamentos-item p
+{
+    font-size:1.25em;
+    font-style:italic;
+    color:#ECECEC;
+    text-align:center;
+}
+
+/*locais*/
+.locais
+{
+    width:100%;
+    height: 795px;
+    background-image:url("../img/foto6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.locais-info
+{
+    max-width:1000px;
+    margin:auto;
+}
+.locais-info h1
+{
+    font-size:3em;
+    color:#ECECEC;
+    text-transform: uppercase;
+    padding-top:40px;
+    padding-bottom: 20px
+}
+.locais-info p
+{
+    max-width:500px;
+    font-size:1.25em;
+    font-style:italic;
+    color:#ECECEC;
+}
+.locais-info ul
+{
+    padding-top:80px;
+}
+.locais-info ul li
+{
+    font-weight: bold;
+    font-size:1.25em;
+    font-style:italic;
+    color:#ECECEC;
+}
+
+/*footer*/
+footer
+{
+    background: #3C4241;
+}
+.footer
+{
+    max-width: 1000px;
+    margin:auto;
+    padding:10px 0;
+}
+.footer h2
+{
+    font-size:1.5em;
+    color:#ECECEC;
+    text-transform: uppercase;
+}
+.footer p
+{
+    font-size:1.125em;
+    font-style:italic;
+    color:#ECECEC;
+    padding-top:15px;
+}
+.footer-copy
+{
+    background: #0F0F11;
+}
+.footer-copy-center
+{
+    max-width: 1000px;
+    margin:auto;
+    padding:10px 0;
+}
+.footer-copy-center p
+{
+    font-size:1.125em;
+    font-style:italic;
+    color:#ECECEC;
+    font-weight: bold;
+    padding:20px 0;
+}
+
+/*Responsivo*/
+@media only screen and (max-width: 700px)
+{
+    h1
+    {
+        text-align:center;
+    }
+    .introducao, .corrida, .beneficios, .locais
+    {
+        max-height: 400px;
+    }
+    .como-comecar
+    {
+        min-height:850px;
+    }
+    .comecar-equipamentos
+    {
+
+        padding-top:10px;
+    }
+    .equipamentos-item
+    {
+        flex-wrap: wrap;
+    }
+    .comecar-equipamentos h2
+    {
+        padding-bottom:10px;
+    }
+    .introducao h1
+    {
+        display: none;
+    }
+    .corrida, h1, p, .locais-info ul li,.footer h2, .footer-copy p
+    {
+        padding-left:3%;
+    }  
+    .beneficios h1
+    {
+        padding-top:20px;
+
+    }
+    .beneficios p
+    {
+        padding-right:3%;
+    }
+    
+    {
+        padding-left: 3
+    }
+}
